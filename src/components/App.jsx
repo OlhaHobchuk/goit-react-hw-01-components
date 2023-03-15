@@ -14,14 +14,15 @@ export const App = () => {
   return (
     <div
       style={{
-        padding: 20,
+        padding: 50,
         height: '100vh',
         display: 'flex',
+        flexDirection: 'column',
         // justifyContent: 'center',
         alignItems: 'center',
         fontSize: 40,
         color: '#010101',
-        columnGap: 50
+        rowGap: 50
       }}
     >
       <Profile username={user.username}
